@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+#define lli long long int
+using namespace std;
+
+class Solution {
+public:
+    int balancedString(string s) {
+        
+    }
+};
+
+int main(){
+    #ifndef ONLINE_JUDGE
+        freopen("input.txt", "r", stdin);
+    #endif
+
+    Solution obj;
+}
