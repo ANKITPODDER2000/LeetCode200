@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+//Class to sove the problem
 class Solution {
 public:
     int subarraySum(vector<int>& nums, int k) {
@@ -13,13 +14,13 @@ public:
             ans += mp[sum - k];
             mp[sum]++;
         }
-        return ans;
+        return ans; //return the ans.
     }
 };
 
 int main(){
     vector<int> arr({1,2,3 , 1 , 2 , 1 , 3});
     Solution obj;
-    cout << obj.subarraySum(arr , 3);
+    cout << obj.subarraySum(arr , 3); // Call the method
     return 0;
 }
